@@ -9,7 +9,7 @@ metadata:
   namespace: kube-system
 spec:
   ports:
-  - port: 8086
-    targetPort: 8086
+  - port: port number
+    targetPort: port number
   selector:
     k8s-app: influxdb
